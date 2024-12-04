@@ -1,0 +1,453 @@
+.HomePageMainContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.HomePageNavContainer {
+    background-color: var(--primaryColor);
+    border-radius: 0;
+    padding: 0.5rem 9rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.HomePageNavContainerButton {
+    border: 2px solid var(--bgColor);
+    padding: 0.7rem 1.5rem;
+    color: var(--bgColor);
+    background-color: var(--primaryColor);
+    cursor: pointer;
+    border-radius: 50px;
+    font-weight: var(--fontWeight700);
+}
+
+.HomepageCardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.HomepageBannerCard {
+    background-image: url("../../../assets/images/Dashboards_Banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+.HomepageBannerCardImg {
+    width: 120px;
+}
+
+.HomepageBannerCardContentField {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.HomepageBannerCardFielsTextOne {
+    font-size: 26px;
+    font-weight: var(--fontWeight700);
+    margin: 0.5rem 0rem;
+    font-family: var(--secondaryFontFamily);
+}
+
+.HomepageBannerCardFielsTextPhera {
+    font-size: 16px;
+    font-weight: 5;
+    margin: 0rem;
+    font-family: var(--secondaryFontFamily);
+}
+
+.HomepageBannerCardFielsAmountContent {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 3rem;
+}
+
+.HomepageBannerCardFielsAmountContentText {
+    font-size: 16px;
+    font-weight: var(--fontWeight600);
+    margin: 0rem;
+    font-family: var(--secondaryFontFamily);
+}
+
+.HomepageBannerCardButton {
+    padding: 1rem 4rem;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: var(--fontWeight600);
+    font-family: var(--secondaryFontFamily);
+    margin-top: 6rem;
+}
+
+.HomePageHandCraftedContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 4rem;
+    width: 90%;
+}
+
+.HomePageHandCraftedContainerTitle {
+    font-size: var(--text32);
+    font-weight: var(--fontWeight700);
+    margin: 0rem;
+    font-family: var(--secondaryFontFamily);
+}
+
+.HomePageHandCraftedCart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+
+.HomePageHandCraftedCartFeild {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+}
+
+.handcraftedImg {
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #edebe9;
+    cursor: pointer;
+    border: 4px solid var(--bgColor);
+}
+
+.handcraftedImg:hover {
+    border: 4px solid var(--primaryColor);
+}
+
+.HomePageHandCraftedCartText {
+    font-size: var(--text20);
+    font-weight: 600;
+    margin: 0rem;
+}
+
+.HomePageBaristaRecommends {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--greyColor);
+    padding: 2rem 0rem;
+}
+
+.HomePageBaristaRecommendsHeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    width: 90%;
+}
+
+.HomePageBaristaRecommendsTitle {
+    font-size: var(--text30);
+    font-weight: var(--fontWeight700);
+}
+
+.HomePageBaristaRecommendsDiscoverMore {
+    font-size: var(--text16);
+    font-weight: var(--fontWeight600);
+    cursor: pointer;
+}
+
+.HomePageBaristaRecommendsCarousel {
+    width: 90%;
+}
+
+.HomePageBaristaRecommendsCarouselCard {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bgColor);
+    border-radius: 10px;
+    padding: 1rem;
+    width: 30%;
+}
+
+.HomePageBaristaRecommendsWorldCoffee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--greyColor);
+    margin: 2rem 0rem;
+    padding: 2rem 0rem;
+}
+
+.HomePageBaristaRecommendsWorldCoffeeCart {
+    background-image: url("../../../assets/images/coffeeword.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 372px;
+    object-fit: cover;
+    border-radius: 8px;
+    width: 90%;
+    padding: 1rem;
+    margin: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.HomePageBaristaRecommendsWorldCoffeeCoffeeCulture {
+    color: var(--primaryColor);
+    font-size: var(--text16);
+    font-weight: var(--fontWeight600);
+    background: var(--greyColor);
+    border-radius: 4px;
+    padding: 4px 8px;
+    width: fit-content;
+    cursor: pointer;
+}
+.HomePageBaristaRecommendsWorldCoffeeContainer{
+    background-image: url("../../../assets/images/coffeeword.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 372px;
+    object-fit: cover;
+    border-radius: 8px;
+    width: 90%;
+    padding: 1rem;
+    margin: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.HomePageBaristaRecommendsWorldCoffeeCartContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.HomePageBaristaRecommendsWorldCoffeeCartTitle {
+    font-size: var(--text32);
+    font-weight: var(--fontWeight600);
+    color: var(--bgColor);
+    margin-bottom: 0.5rem ;
+}
+
+.HomePageBaristaRecommendsWorldCoffeeCartDescription {
+    font-size: var(--text18);
+    font-weight: var(--fontWeight600);
+    color: var(--bgColor);
+    margin-bottom: 1rem ;
+}
+.HomePageBaristaRecommendsWorldCoffeeCartButton{
+    border: 2px solid var(--bgColor);
+    padding: 0.5rem 5rem;
+    background-color: var(--bgColor);
+    cursor: pointer;
+    border-radius: 50px;
+    font-weight: var(--fontWeight700);
+    font-size: var(--text18);
+    margin: 1rem 0rem;
+    width: fit-content;
+}
+.HomePageBaristaRecommendsWorldCoffeeContainer:hover{
+    opacity: 0.6;
+    background-color: transparent;
+    transition: linear .2s;
+}
+.BaristaRecommendsCard{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+   
+}
+.CarosualMainContainer{
+    width: 100%;
+}
+.CarosualCartImg{
+    width: 120px;
+    border-radius: 10px;
+}
+.BaristaRecommendsCardImgAndData{
+    display: flex;
+    gap: 15px;
+}
+.BaristaRecommendsCardImgAndDataContent{
+    display: flex;
+    flex-direction: column;
+}
+.CarosualCartVegImg{
+    width: 25px;
+    height: 25px;
+}
+.BaristaRecommendsCardContentTittle{
+    font-size: var(--text20);
+    font-weight: var(--fontWeight600);
+    margin-top: 0.5rem;
+}
+.BaristaRecommendsCardContentDescription{
+    font-size: var(--text16);
+    font-weight: var(--fontWeight500);
+}
+.BaristaRecommendsCardContentAmount{
+    font-size: var(--text14);
+    font-weight: var(--fontWeight500);
+}
+.BaristaRecommendsCardButtonContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+.CarosualMainContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .slider {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .slider::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .sliderCard {
+    flex: 0 0 auto;
+    width: 300px; /* Adjust the width as needed */
+    margin: 0 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sliderIcon {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+  
+  .sliderIcon.left {
+    left: 10px;
+  }
+  
+  .sliderIcon.right {
+    right: 10px;
+  }
+  
+  .BaristaRecommendsCard {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .BaristaRecommendsCardImgAndData {
+    position: relative;
+  }
+  
+  .BaristaRecommendsCardImgAndDataContent {
+    margin-top: 10px;
+  }
+  
+  .BaristaRecommendsCardContentTittle {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .BaristaRecommendsCardContentDescription {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .BaristaRecommendsCardContentAmount {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .BaristaRecommendsCardButton {
+    background-color: #00754a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .BaristaSlideCardButton{
+    background-color: var(--darkColor);
+    color: var(--primaryColor);
+    border: none;
+    border-radius: 50px;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+  }
+  @media only screen and (min-width: 200px) and (max-width: 650px)  {
+   .HomePageNavContainer{
+    padding: 0.5rem !important;
+    width: 100% !important;
+   }
+   .HomePageNavContainerButton{
+    padding: 0.3rem 1.5rem !important;
+   }
+   .HomepageCardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    padding: 1rem !important;
+    width: 100% !important  ;
+}
+.HomepageBannerCard{
+    display: none !important;
+}
+.HomePageHandCraftedContainer{
+    margin: 0rem !important;
+   
+}
+.HomePageHandCraftedContainerTitle{
+    font-size: var(--text24) !important;
+    text-align: center !important;
+}
+.HomePageHandCraftedCart{
+    flex-direction: column !important;
+}
+.HomePageHandCraftedCartFeild{
+    width: 100% !important;
+}
+.HomePageBaristaRecommends{
+    width: 100% !important;
+}
+.HomePageBaristaRecommendsTitle{
+    font-size: var(--text10) !important;
+}
+.HomePageBaristaRecommendsDiscoverMore{
+    font-size: var(--text10) !important;
+}
+.HomePageBaristaRecommendsHeaderContainer{
+    padding: 0rem !important;
+}
+.HomePageBaristaRecommendsWorldCoffeeCartButton{
+    padding: 0.5rem 4rem !important;
+  }
+  .HomePageBaristaRecommendsWorldCoffeeCartTitle{
+    font-size: var(--text16) !important;
+  }
+  .HomePageBaristaRecommendsWorldCoffeeCartDescription{
+    font-size: var(--text14) !important;
+  }
+}

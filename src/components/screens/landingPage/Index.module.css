@@ -1,0 +1,17 @@
+.LandingPageMainContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.LandingPageOutlet{
+    margin-top: 4.5rem;
+}
+.LandingPageOutletComponent{
+    width: 100%;
+}
+@media only screen and (min-width: 200px) and (max-width: 650px)  {
+    .LandingPageOutlet{
+        margin-top: 4rem !important;
+    }
+}

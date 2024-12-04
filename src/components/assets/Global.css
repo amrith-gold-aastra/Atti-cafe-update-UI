@@ -1,0 +1,135 @@
+
+:root {
+    --secondaryColor: #f4f4f4;
+    --darkColor: #141c1a;
+    --bgColor: #fff;
+    --greyColor: #dbdad9;
+    --lineColor: #d0d6d5;
+    --cardText:#a7a7a7;
+    --cardBgColor:#f9f9f9;;
+    --divisionLineColor: #e8e8e8;
+    --shadowColor: #dfe5e4;
+    --greenColor: #127034;
+    --primaryColor: #f5b810;
+  
+
+    --defaultRegular: "Parkinsans", serif;;
+    --secondaryFontFamily:"Parkinsans", serif;;
+
+    --text8: 8px;
+    --text10: 10px;
+    --text12: 12px;
+    --text14: 14px;
+    --text16: 16px;
+    --text18: 18px;
+    --text20: 20px;
+    --text24: 24px;
+    --text28: 28px;
+    --text30: 30px;
+    --text32: 32px;
+    --text36: 36px;
+    --text48: 48px;
+    --text56: 56px;
+    --text64: 64px;
+
+    --fontWeight500:500;
+    --fontWeight600:600;
+    --fontWeight700:700;
+    --fontWeight800:800;
+    --fontWeight900:900;
+  }
+ ::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+p{
+  margin: 0rem;
+}
+
+/* slider */
+
+
+#slider{
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+#slider::-webkit-scrollbar{
+  display: none;
+}
+
+#main-slider-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+
+.slider-card-title, .slider-card-description{
+  margin: 5px 0px 5px 10px;
+}
+
+.slider-card-title{
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.slider-card-description{
+  opacity: 0.5;
+  font-size: 13px;  
+}
+
+.slider-icon.left, .slider-icon.right {
+  background: white;
+  border-radius: 100%;
+  position: absolute;
+  opacity: 0.5;
+  box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 12%);
+  cursor: pointer;
+}
+
+.slider-icon.left{
+  left: 0;
+}
+
+.slider-icon.right{
+  right: 0;
+}
+
+.slider-icon.left:hover, .slider-icon.right:hover{
+  opacity: 1;
+}
+
+.slider-card{
+  width: 33%;
+  background: var(--bgColor);
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 12%);
+  cursor: pointer;
+}
+@media only screen and (min-width: 200px) and (max-width: 650px)  {
+  #slider{
+    display: flex !important;
+    flex-direction: column !important;
+}
+.slider-card{
+    width: 100% !important;
+    margin: 0.5rem 0rem !important;
+}
+
+.slider-icon.left{
+  display: none !important;
+}
+
+.slider-icon.right{
+  display: none !important;
+}
+
+}

@@ -1,0 +1,204 @@
+  .OrderPageMainContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .OrderPageBreadcrumbs {
+      padding: 1rem 6rem;
+      width: 100%;
+  }
+
+  .OrderPageBreadcrumbsLink {
+      text-decoration: none;
+      color: var(--darkColor);
+      cursor: pointer;
+  }
+
+  .OrderPageBreadcrumbsLink:hover {
+      color: var(--darkColor);
+  }
+
+  .OrderPageNavContainer {
+      background-color: var(--primaryColor);
+      width: 100%;
+      padding: 1rem 9rem;
+      display: flex;
+      justify-content: space-between;
+
+  }
+
+  .OrderPageFillterContent {
+      display: flex;
+      align-items: center;
+  }
+  .OrderPageFillterContentTextTiming{
+    margin: 0rem;
+    margin-top: 0.8rem;
+  }
+  .OrderPageNavContainerFilter {
+      background-color: var(--secondaryColor);
+      width: 100%;
+      padding: 0.5rem 5rem 0rem 5rem;
+      display: flex;
+      align-items: center;
+  }
+
+  .OrderPageNavText {
+      font-size: var(--text20);
+      padding: 1rem 3rem;
+      cursor: pointer;
+      border-bottom: 3px solid var(--secondaryColor);
+      border: none;
+  }
+
+  .OrderPageNavText:hover {
+      border-bottom: 3px solid var(--primaryColor);
+      color: var(--primaryColor);
+  }
+
+  .OrderPageBestsellerContainer {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem 8rem;
+      width: 100%;
+  }
+
+  .OrderPageBestsellerContainerTittle {
+      color: var(--darkColor);
+      font-size: var(--text20);
+      width: 100%;
+      font-weight: var(--fontWeight700);
+      margin: 0rem;
+  }
+
+  .OrderPageBestsellerContainerText {
+      color: var(--darkColor);
+      font-size: var(--text18);
+      width: 100%;
+      margin: 0rem;
+  }
+
+  .OrderPageContent {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+  }
+
+  .OrderPageContentCart {
+      display: flex;
+      width: 30%;
+      margin: 1rem;
+      padding: 1rem;
+      border-radius: 8px;
+      background-color: var(--cardBgColor);
+      box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+  }
+
+  .OrderPageContentCartImg {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      cursor: pointer;
+      object-fit: cover;
+  }
+
+  .OrderPageContentCartData {
+      display: flex;
+      flex-direction: column;
+      padding: 0rem 1rem;
+  }
+
+  .BestsellerVegImg {
+      width: 16px;
+      height: 16px;
+  }
+
+  .BestsellerCardTittle {
+      font-size: var(--text20);
+      font-weight: var(--fontWeight600);
+      margin: 0rem;
+  }
+
+  .BestsellerCardSize {
+      font-size: var(--text14);
+      color: var(--cardText);
+      margin: 0rem;
+  }
+
+  .BestsellerCardDescription {
+      font-size: var(--text14);
+  }
+
+  .BestsellerCardPriceAndButtonContainer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 2rem;
+  }
+
+  .BestsellerCardPriceText {
+      color: var(--darkColor);
+      font-size: var(--text18);
+      font-weight: var(--fontWeight700);
+  }
+  .BestsellerCardButton{
+        background-color: var(--darkColor);
+        color: var(--primaryColor);
+        font-size: var(--text16);
+        font-weight: var(--fontWeight600);
+        padding: 0.5rem 1rem;
+        border-radius: 50px;
+        border: none;
+  }
+  .OrderPageSubNavContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 6rem;
+  }
+  .OrderPageSubNavContent{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .OrderPageSubNavContentData{
+    padding: 0.5rem 6rem;
+    width: 100%;
+    border-bottom: 2px solid var(--cardText);
+
+  }
+  .OrderPageSubNavContentTextButton{
+    border: none;
+    font-size: var(--text16);
+    font-weight: var(--fontWeight600);
+    padding: 0.5rem 1rem;
+    background-color: var(--bgColor);
+    border-bottom: 2px solid var(--bgColor);
+  }
+  .OrderPageSubNavContentTextButton:hover{
+    border-bottom: 2px solid var(--primaryColor);
+  }
+  .OrderPageSubNavContentDataTwo{
+    padding: 1rem 6rem;
+    width: 100%;
+    border-bottom: 2px solid var(--cardText);
+    display: flex;
+    align-items: center;
+  }
+  .ButtonContainerDataFilter{
+    display: flex;
+    padding: 0.5rem 2rem;
+    justify-content: space-between;
+    overflow-x: scroll;
+    width: 100%;
+  }
+  .OrderPageSubNavContentTextButtonData{
+    border: none;
+    font-size: var(--text14);
+    padding: 0.5rem 1rem;
+    background-color: var(--greyColor);
+    border-radius: 10px;
+  }

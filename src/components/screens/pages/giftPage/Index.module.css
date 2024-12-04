@@ -1,0 +1,168 @@
+.GiftPageMainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.GiftPageBreadcrumbs{
+    padding: 1rem 6rem;
+    width: 100%;
+}
+.GiftPageBreadcrumbsLink{
+    text-decoration: none;
+    color: var(--darkColor);
+    cursor: pointer;
+}
+.GiftPageBreadcrumbsLink:hover{
+    color: var(--darkColor);
+}
+.GiftPageNavTag{
+    background-color: var(--primaryColor);
+    padding: 2rem;
+    width: 100%;
+}
+.GifrPageNavContainer{
+    background-color: var(--secondaryColor);
+    width: 100%;
+    padding: 0.5rem 5rem 0rem 5rem;
+    display: flex;
+    align-items: center;       
+}
+.footerPageNavText{
+    font-size: var(--text20);
+    padding: 1rem 3rem;
+    cursor: pointer;
+    border-bottom: 3px solid var(--secondaryColor);
+    border: none;
+}   
+.footerPageNavText:hover{
+border-bottom: 3px solid var(--primaryColor);
+color: var(--primaryColor);
+}
+.active{
+    border-bottom: 3px solid var(--primaryColor);
+color: var(--primaryColor);
+}
+.GifrPageNavHeaderContainer{
+    width: 100%;
+    padding: 1rem 5rem;
+    border-bottom: 2px solid var(--divisionLineColor);
+}
+.GifrPageNavHeaderContainerText{
+    font-size: var(--text28);
+    font-weight: var(--fontWeight700);
+
+}
+.GifrPageCardContainer{
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem 3rem;
+    width: 100%;
+    
+}
+.GifrPageCardContent{
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    background-color: var(--secondaryColor);
+    padding: 1.5rem;
+    border-radius: 10px ;
+    display: flex;
+    margin: 2rem;
+    width: 33%;
+}
+.GifrPageCardContentImgContent{
+    position: relative;
+    z-index: 9;
+    right: 3rem;
+    bottom: 0.5rem;
+}
+.GifrPageCardContentImg{
+    width: 140px;
+    height: 100px;
+    cursor: pointer;
+    filter: drop-shadow(0px 6px 10px rgba(0, 0, 0, .07)) drop-shadow(0px 1px 18px rgba(0, 0, 0, .06)) drop-shadow(0px 3px 5px rgba(0, 0, 0, .1));
+    border-radius: 8px;
+}
+.GifrPageCardTextContent{
+    display: flex;
+    flex-direction: column;
+}
+.GifrPageCardTextContentTittle{
+    font-size: var(--text24);
+    font-weight: var(--fontWeight600);
+}
+.GifrPageCardTextContentDescription{
+    font-size: var(--text16);
+    font-weight: var(--fontWeight500);
+}
+.GifrPageCardTextContentButton{
+    width: fit-content;
+    padding: 0.5rem 2rem;
+    border: none;
+    margin-top: 2rem;
+    border-radius: 50px;
+    background-color: var(--primaryColor);
+    font-size: var(--text20);
+    font-weight: var(--fontWeight600);
+}
+.GifrPageCardAnyTimeContainer{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 1rem 3rem;
+    width: 100%;
+}
+.anytimeContent{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.GifrPageAnyTimeCardContent{
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    background-color: var(--secondaryColor);
+    padding: 1.5rem;
+    border-radius: 10px ;
+    display: flex;
+    margin: 2rem;
+    width: 29%;
+}
+@media only screen and (min-width: 200px) and (max-width: 650px)  {
+    .GifrPageCardContainer{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center !important;
+    }
+    .GifrPageCardContent{
+        width: 100% !important;
+        margin: 0.5rem !important;
+        padding: 0.5rem !important;
+    }
+    .GifrPageNavContainer{
+        flex-direction: column;
+        padding: 0rem;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .GiftPageFilterData{
+        display: none !important;
+    }
+    .footerPageNavText{
+        font-size: var(--text12) !important;
+        padding: 0.5rem 1rem !important;
+        background-color: var(--secondaryColor);
+    }
+    .GifrPageCardTextContentTittle{
+        font-size: var(--text16) !important;
+    }
+    .GifrPageCardTextContentDescription{
+        font-size: var(--text12) !important;
+    }
+    .GifrPageCardTextContentButton{
+        padding: 0.5rem 1rem !important;
+        margin-top: 1rem !important;
+        font-size: var(--text12) !important;
+        font-weight: var(--fontWeight600);
+    }
+    .GiftPageBreadcrumbs{
+        padding: 1rem !important;
+    }
+}

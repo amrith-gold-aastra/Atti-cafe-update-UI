@@ -1,0 +1,90 @@
+.FooterPageMainContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 4rem 6rem;
+    background-color: var(--darkColor);
+}
+
+.FooterPageTopContentField {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FooterPageTopContentFieldImg {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.FooterPageAbouUSContent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.FooterPageAbouUSContentTitle {
+    font-size: var(--text24);
+    font-weight: var(--fontWeight800);
+    color: var(--primaryColor);
+}
+
+.FooterPageAbouUSContentText {
+    font-size: var(--text20);
+    font-weight: var(--fontWeight600);
+    color: var(--bgColor);
+    margin: 1rem 0rem;
+
+}
+
+.FooterPageSocialMediaContent {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.FooterPageBottumContentField{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid var(--bgColor);
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+.FooterPageBottumCartContent{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.FooterPageBottumCartContentText{
+    font-size: var(--text18);
+    color: var(--primaryColor);
+}
+@media only screen and (min-width: 200px) and (max-width: 650px)  {
+    .FooterPageMainContainer{
+        width: 100% !important;
+        padding: 2rem !important;
+    }
+    .FooterPageTopContentField{
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+    .FooterPageBottumContentField{
+        width: 100% !important;
+        flex-direction: column !important;
+    }
+    .FooterPageBottumCartContentText{
+        font-size: var(--text10) !important;
+    }
+    .FooterPageBottumCartContent{
+        width: 100% !important;
+    }
+    .FooterPageBottumCartContent{
+        font-size: var(--text18) !important;
+    }
+    .FooterPageAbouUSContentText{
+        margin: 0.2rem 0rem !important;
+        font-size: var(--text16) !important;
+    }
+}

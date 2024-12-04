@@ -1,0 +1,64 @@
+.HeaderPageMainContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 3rem;
+    background-color: var(--bgColor);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    flex-wrap: wrap; 
+    box-shadow: #1c1c1c1c 1px 1px 2px;
+    border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+}
+.HeaderPageLogo{
+    width: 4%;
+    border-radius: 50px;
+}
+.HeaderPageNavigationContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.HeaderPageUserIcon{
+    font-size: 2rem !important;
+}
+.HeaderPageLinkText{
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    font-size: var(--text18);
+    height: 5vh;
+    margin: 0rem;
+    margin-top: 1rem;
+    color: var(--darkColor);
+    text-decoration: none;
+}
+.HeaderPageLinkText:active,
+.HeaderPageLinkText:hover,
+.HeaderPageLinkText:focus{
+    color: var(--primaryColor);
+    border-bottom: 2px solid var(--primaryColor);
+}
+.AtticafeMobileViewMenuIcon{
+    display: none;
+}
+@media only screen and (min-width: 200px) and (max-width: 650px)  {
+    .AtticafeMobileViewMenuIcon{
+        display: block;
+    }
+    .HeaderPageNavigationContainer{
+        display: none;
+    }
+    .HeaderPageMainContainer{
+        padding: 0.5rem !important;
+        width: 100% !important;
+    }
+    .AttiCafeHeaderSearchBox{
+        width: 50% !important;
+    }
+    .HeaderPageUserIcon{
+        display: none !important;
+    }
+    .HeaderPageLogo{
+        width: 50px !important;
+    }
+}
